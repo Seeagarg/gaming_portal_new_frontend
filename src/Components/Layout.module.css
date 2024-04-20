@@ -1,0 +1,20 @@
+.container {
+    /* width: 100%; */
+    min-height: 100vh;
+    position: relative;
+    background-image: url('/public/assets/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
